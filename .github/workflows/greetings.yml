@@ -13,4 +13,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'If you see this message, then it means I work :sparkles:'
-        pr-message: 'Congrats on submitting your first PR here :party:' 
+        pr-message: 'If you see this message, then I am working. Congrats on submitting your first PR here :party:' 
