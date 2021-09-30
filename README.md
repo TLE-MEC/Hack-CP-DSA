@@ -1,4 +1,7 @@
-# Hack CP-DSA
+# Hack CP-DSA <img align = "right" src ="https://img.shields.io/github/watchers/TLE-MEC/Hack-CP-DSA?style=social"> <img align = "right" src ="https://img.shields.io/github/stars/TLE-MEC/Hack-CP-DSA?style=social">    <img align = "right" src ="https://img.shields.io/github/forks/TLE-MEC/Hack-CP-DSA?style=social">
+
+<img src="https://img.shields.io/github/contributors/TLE-MEC/Hack-CP-DSA">  <img src="https://img.shields.io/tokei/lines/github/TLE-MEC/Hack-CP-DSA">             <img src="https://img.shields.io/github/languages/count/TLE-MEC/Hack-CP-DSA"> <img src="https://img.shields.io/github/issues/TLE-MEC/Hack-CP-DSA">
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
 
 _Participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) :question:_      
 _Wanna improve your problem solving skills :question:_      
