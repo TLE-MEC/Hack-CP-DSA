@@ -5,7 +5,7 @@ Create your own copy of this repo by forking it.
 <img src="https://raw.githubusercontent.com/TLE-MEC/Hack-CP-DSA/main/Assets/images/github1.png" alt="github1"></img>
 
 ## 2. Clone your fork
-_This requires git to be installed on your system. Install it from here if you don't have it._  
+_This requires git to be installed on your system. Install it from [here](https://git-scm.com/) if you don't have it._  
 Use the following command to clone the repo to your local folder.  
 ```
 git clone https://github.com/<your_username>/Hack-CP-DSA.git
