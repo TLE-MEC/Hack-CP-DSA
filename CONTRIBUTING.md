@@ -1,8 +1,9 @@
+
 # How to contribute
-You can contribute to this repo in any of the following ways :computer:
+You can contribute to this repo in any of the following ways
 ## :pencil2: Adding new problems and solutions
 
-* Selecting a problem from a website like hackerrank, codechef etc
+* Selecting a problem from a website like hackerrank, Leetcode etc
   * Add it to the respective folder (eg: Leetcode_problems; if it doesn't exist, create it)
   * Make a folder with the name as name of the problem given
   * Should have 2 files: `readme.md` and `solution`
@@ -10,7 +11,7 @@ You can contribute to this repo in any of the following ways :computer:
   * Add your solution in any language in the `solution` file
   * Solutions must be properly indented and explained with comments
 
-* Submitting a new problem
+* Creating a new problem
   * Add it to misc folder 
   * Make a folder with name as name of the problem
   * Should have 2 files: `readme.md` and `solution`
@@ -24,7 +25,7 @@ You can contribute to this repo in any of the following ways :computer:
 * Solutions must be properly indented and explained with comments
 
 ## :books: Documentation Contributions
-* You can add useful resources related to CP.
+* You can add useful resources related to CP/DSA. 
 * You can improve the readme and contributing documentation
 
 ## :exclamation: Important Note: Read this before you send  a Pull Request
@@ -38,6 +39,6 @@ Please read the following points carefully
 
 #### As long as your PR adheres with all the points mentioned above, you're good to go :sparkles:
 
-For a guide on how to make a Pull request, refer [this](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/MAKING_A_PR.md)
+:pencil: For a guide on how to make a Pull request, refer [this](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/MAKING_A_PR.md)
 
-Happy contributing :smiley:
+#### Happy contributing!! :smiley:
