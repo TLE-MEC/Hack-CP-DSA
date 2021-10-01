@@ -3,5 +3,7 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=1"
     actions:
+      comment: 
+        message: Awesome :thumbsup:, Thanks for contributing to Hack-CP-DSA by [TLE MEC](https://www.instagram.com/tle.mec/) :smiley:!
       merge:
         method: merge
