@@ -37,7 +37,7 @@ Sample Output 2
 5
 //////////////////////////////
 */
-
+//solution:-
 #include <cmath>
 #include <vector>
 #include <iostream>
