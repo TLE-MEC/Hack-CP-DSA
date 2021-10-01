@@ -9,7 +9,7 @@ pull_request_rules:
         method: merge
   - name: comment on label
     conditions:
-      - label=add-comment
+      - label=changes-needed
     actions:
       comment:
         message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved.
