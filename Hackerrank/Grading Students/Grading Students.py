@@ -6,28 +6,21 @@ import random
 import re
 import sys
 
-#
-# Complete the 'gradingStudents' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts INTEGER_ARRAY grades as parameter.
-#
-
 def grade_round(num):
-    while num % 5 != 0:
+    while num % 5 != 0:  # checks until the number has reached it's neareast boundaries
         num += 1
-    return num 
+    return num # returns neareast round value
 
 def gradingStudents(grades):
     final_grades = []
     for i in grades:
-        if i < 38:
+        if i < 38:               # checking base case for pass and fail
             final_grades.append(i)
         else:
-            if grade_round(i) - i < 3:
-                final_grades.append(grade_round(i))
+            if grade_round(i) - i < 3:   # checking whether the increment is less than 3
+                final_grades.append(grade_round(i)) # if it is less than 3 , then append the round value to final grades
             else:
-                final_grades.append(i)
+                final_grades.append(i) # if it is greater than 3 , then appends the actual value to final grades
 
     return final_grades
 
