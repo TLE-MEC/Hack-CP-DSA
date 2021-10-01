@@ -1,4 +1,5 @@
-/* September Lunchtime 2021- Division 3- Interesting Representation (INTREP)*/
+/* September Lunchtime 2021- Division 3- Interesting Representation (INTREP)
+This question is solved with the number theory concept.*/
 
 #include <iostream>
 using namespace std;
