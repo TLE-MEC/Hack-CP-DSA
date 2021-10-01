@@ -37,6 +37,7 @@ bool cmp(const pair<int,int> &a,
 }
 void solve(){
  priority_queue<pair<int, int> > q;
+ /* Using Priority _queue to take different pair and substract them*/
     int n;
     cin >> n;
     for (int i = 1; i <=n; i++) {
@@ -47,6 +48,8 @@ void solve(){
     vector<pair<int,int> >v;
     int cnt1,cnt2,x1,x2;
     while (q.size() >= 2) {
+        // queue size should be greater than equal to 2
+        // to use 2 make a pair
         auto it = q.top();
          cnt1=it.first;
          x1=it.second;
@@ -59,6 +62,7 @@ void solve(){
             cnt1--;
         cnt2--;
           v.push_back(make_pair(x1,x2));
+          // Each non zero pair is inserted
         }
         if (cnt1) {
             q.push(make_pair(cnt1,x1));
