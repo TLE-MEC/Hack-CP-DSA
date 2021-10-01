@@ -19,14 +19,14 @@ int main() {
         
 	      cin>>s;
 	      if(s[j]=='1')ans+='0';  // appends '0' to the ans string if the indice i of string s has a value of  '1'
-	      else ans+='1';          // else appends '1' to ans
+	      else ans += '1';          // else appends '1' to ans
                                 /* the logic is to get a completely differnt binary string by assigning the value of '1' to the ith indice of the ans variable if the ith indice
                                     of the ith string is '0' (and vice versa) */
 	      }
     
 	    cout<<ans<<"\n";
 	  
-    ans="";
+    ans = "";
 	    
 	}
   
