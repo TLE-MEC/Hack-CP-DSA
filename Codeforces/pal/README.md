@@ -1,5 +1,7 @@
-# Semifinals
+# Productive Meeting
 
-## Codeforces Round #222 (Div. 2)
+## Codeforces Round #744 (Div. 3)
 
-## problem link : https://codeforces.com/contest/378/problem/B
+## Rating 1400
+
+## problem link : https://codeforces.com/contest/1579/problem/D
