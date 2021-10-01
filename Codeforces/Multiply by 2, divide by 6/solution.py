@@ -26,7 +26,7 @@ number = int(input())
 
 for i in range(number):
     
-    #initialize count with 0
+    #Initialize count with 0
     count = 0
     
     #Get the input
