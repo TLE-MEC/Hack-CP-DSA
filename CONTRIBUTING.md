@@ -3,7 +3,7 @@
 You can contribute to this repo in any of the following ways
 ## :pencil2: Adding new problems and solutions
 
-* Selecting a problem from a website like hackerrank, Leetcode etc
+* Selecting a problem from a website like [Hackerrank](https://hackerrank.com/), [Leetcode](https://leetcode.com/) etc
   * Add it to the respective folder (eg: Leetcode; if it doesn't exist, create it)
   * Make a folder with the name as name of the problem given
   * Should have 2 files: `readme.md` and `solution`
