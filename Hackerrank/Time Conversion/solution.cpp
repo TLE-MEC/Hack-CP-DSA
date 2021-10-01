@@ -23,7 +23,7 @@ string timeConversion(string s) {
         // checking if it is equal not equal to 12. as if it is equal to 12:00:00 PM, then it is considered to be noon
         // and there is no need to add 12 to make it into 24 hour format.
         if(h!=12){
-            h+=12; // adding 12 to the hour if h is not equal to 12
+            h+=12; // adding 12 to the hour if h is not equal to 12.
             v=to_string(h)+s.substr(2,6); 
         }
         else{
