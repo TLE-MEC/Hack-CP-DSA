@@ -13,3 +13,9 @@ pull_request_rules:
     actions:
       comment:
         message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved.
+  - name: Close invalid pull request
+    conditions:
+      - label=invalid
+    actions:
+      close: 
+        message: Your PR has been closed due to not aligning with the contribution guidelines. Please go through [Contributing.md](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) and send another PR, Thanks.
