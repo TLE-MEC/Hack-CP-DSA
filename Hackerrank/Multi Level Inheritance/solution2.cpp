@@ -30,7 +30,7 @@ class Equilateral : public Isosceles{
 //Write your code here.
 int main(){
     Equilateral eqr;
-     eqr.equilateral();
+    seqr.equilateral();
     eqr.isosceles();
     eqr.triangle();
     return 0;
