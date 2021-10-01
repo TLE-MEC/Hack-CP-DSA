@@ -5,6 +5,8 @@ pull_request_rules:
     actions:
       comment: 
         message: Awesome :thumbsup:, Thanks for contributing to Hack-CP-DSA by [TLE MEC](https://www.instagram.com/tle.mec/) :smiley:!
+      label:
+        remove_all: true
       merge:
         method: merge
   - name: comment on label
