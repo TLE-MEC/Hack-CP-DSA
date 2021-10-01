@@ -6,24 +6,20 @@ import random
 import re
 import sys
 
-#
-# Complete the 'kangaroo' function below.
-#
 # The function is expected to return a STRING.
 # The function accepts following parameters:
-#  1. INTEGER x1
-#  2. INTEGER v1
-#  3. INTEGER x2
-#  4. INTEGER v2
-#
+#  1. INTEGER x1 = position of kangaroo-1
+#  2. INTEGER v1 = speed of kangaroo-1
+#  3. INTEGER x2 = position of kangaroo-2
+#  4. INTEGER v2 = speed of kangaroo-2
 
 def kangaroo(x1, v1, x2, v2):
-    if v1 != v2:
-        value = (x2-x1)/(v1-v2)
-        if (value - int(value)) == 0 and v1 > v2:
-            return 'YES'
+    if v1 != v2:                                    # Base case for kangaroo 1 & 2 ( if v1 == v2 both can't meet at any position)
+        value = (x2-x1)/(v1-v2)                     # calculating time for meeting, if time is +ve they meet at a position, if -ve they never meet
+        if (value - int(value)) == 0 and v1 > v2:   # checks whether time is a integer or not and from base case v1 should > v2
+            return 'YES'                            
         else:
-            return 'NO'
+            return 'NO'                             # returns 'YES' if meet, 'NO' if not meet
     else:
         return 'NO'
 
