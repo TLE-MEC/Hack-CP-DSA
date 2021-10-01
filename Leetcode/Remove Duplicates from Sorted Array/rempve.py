@@ -18,3 +18,11 @@ class Solution(object):
                 nums[j] = nums[i]
         # Return the slow runner + 1 for length
         return j + 1
+    
+    # Testing
+def main():
+    x = Solution()
+    y = x.removeDuplicates([1,1,1,1,2,3,3])
+    print y
+
+main()
