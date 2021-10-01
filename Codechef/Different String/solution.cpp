@@ -7,9 +7,9 @@ using namespace std;
 
 int main() {
   
-	int t,n;                          // t is the number of test cases and n is the number of binarry strings in each testcase
+	int t, n;                          // t is the number of test cases and n is the number of binarry strings in each testcase
 	cin>>t;
-	string s,ans="";                  // s stores each input string and ans stores the expected output
+	string s, ans = "";                  // s stores each input string and ans stores the expected output
   
 	for(int i=0;i<t;i++){
 	   
