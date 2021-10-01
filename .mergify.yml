@@ -7,3 +7,15 @@ pull_request_rules:
         message: Awesome :thumbsup:, Thanks for contributing to Hack-CP-DSA by [TLE MEC](https://www.instagram.com/tle.mec/) :smiley:!
       merge:
         method: merge
+  - name: comment on label
+    conditions:
+      - label=changes-needed
+    actions:
+      comment:
+        message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved.
+  - name: Close invalid pull request
+    conditions:
+      - label=invalid
+    actions:
+      close: 
+        message: Your PR has been closed due to not aligning with the contribution guidelines. Please go through [Contributing.md](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) and send another PR, Thanks.
