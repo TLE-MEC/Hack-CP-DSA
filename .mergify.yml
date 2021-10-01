@@ -7,3 +7,9 @@ pull_request_rules:
         message: Awesome :thumbsup:, Thanks for contributing to Hack-CP-DSA by [TLE MEC](https://www.instagram.com/tle.mec/) :smiley:!
       merge:
         method: merge
+  - name: comment on label
+    conditions:
+      - label=add-comment
+    actions:
+      comment:
+        message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved.
