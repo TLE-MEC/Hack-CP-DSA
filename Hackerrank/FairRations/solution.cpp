@@ -1,45 +1,35 @@
-// Solution for fair rations problem
-#include<bits/stdc++.h>
+
+#include <bits/stdc++.h>
 using namespace std;
 
-/*
-The idea here is to first check the sum of all the rations distributed
-to the people, if the sum is odd, which means that at least any one element
-is odd, and even after doing the operation n times, there will be an odd
-element which won't make the rations fair, hence the output will be 'NO'
-in this case.
-
-Otherwise, we can iterate over the array and increment any odd element and
-its next element, since the sum of the array was even, eventually after traversing
-through the array, all elements will become even.
-
-A variable will be created in order to store how many loaves are distributed, which
-will be incremented by 2 after each increment operation.
-*/
-
-int main(){
-  int n, s = 0;
-  cin>>n;
-  int arr[n];
-  for(int i=0; i<n; i++){
-    cin>>arr[i];
-    s += arr[i]; // Calculating sum of loaves
-  }
-  if(s % 2 != 0) // Sum of loaves is odd
-    cout<<"NO\n";
-  else{
-    int c = 0; // Initialising number of loaves by 0
-    for(int i=0; i<n; i++){
-      if(arr[i] % 2 != 0){
-        arr[i]++; // Increment operation
-        arr[i+1]++;
-        c += 2; // Incrementing number of loaves distributed by 2
-      }
+string fairRations(vector<int> B) {
+    int loaves=0,i=0,end = B.size()-1;
+    while(i<end)
+    {
+        if(B[i]%2)   //we want odd numbers and 1 will be returned in case of odd which will eventaully run the conditional if as 1 means true 
+        {
+            B[i]++;B[i+1]++;
+            loaves+=2;
+        }
+        i++;
     }
-    cout<<c<<'\n';
-  }
-  return 0;
+    if(B[end]%2)   // this will return 1(True for if condition) only when end element is odd which means that all the elements can not be converted into even so return "NO"
+    {
+        return "NO";
+    }
+    return to_string(loaves);     //to_string function converts int to string type
 }
-
-// Time complexity - O(n)
-// Space somplexity - O(1)
+int main()
+{
+    int n,x;
+    
+    cin>>n;
+    vector<int>A(n);
+    for(int i=0;i<n;i++)
+    {
+    cin>>x;
+    A.push_back(x);
+    }
+    cout<<fairRations(A);
+    return 0;
+}
