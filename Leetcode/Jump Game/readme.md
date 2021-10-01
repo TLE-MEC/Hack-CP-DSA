@@ -1,4 +1,6 @@
 
+<h3> Problem <a href="https://leetcode.com/problems/jump-game/">Link</a> </h3> 
+
 ### Given an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
 
 ### Example 1:
@@ -12,6 +14,7 @@
 ### Output: false
 
 ### Explanation: From the first index, the maximum position we can jump is 3 steps and reach at position 4(3 if you see array index). From the second position we can jump is 2 steps and reach at position 4 (3 if you see array index). From the third position we can jump 1 step reach at position 4(0 if you see array index). But unfortunately, from position 4, we cannot move further.
+<hr>
 
 ### Java Approach: 
 
