@@ -2,7 +2,7 @@
 
 ### A Step By Step Guide To CP
 In this resource , a step by step guide is provided along with the practice problems to become good at cp from a red coder himself.
-* [CP GUDIDE](https://shahjalalshohag.github.io/topic-list/)
+* [CP GUIDE](https://shahjalalshohag.github.io/topic-list/)
 
 ### Websites to practice 
 * [Hackerrank](https://www.hackerrank.com/)
