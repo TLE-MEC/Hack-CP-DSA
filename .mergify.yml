@@ -30,3 +30,10 @@ pull_request_rules:
       - label=inactive-close
     actions:
       close:
+  - name: label on conflicts
+    conditions:
+      - conflict
+    actions:
+      label:
+        add:
+          - conflict-no-approve
