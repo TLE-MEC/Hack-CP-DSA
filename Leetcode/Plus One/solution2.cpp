@@ -1,3 +1,5 @@
+class Solution {
+public:
 vector<int> plusOne(vector<int> &digits)
 {
     int x = digits.size() - 1;
@@ -19,4 +21,5 @@ vector<int> plusOne(vector<int> &digits)
     digits.push_back(0);
     digits[0] = 1;
     return digits;
+}
 }
