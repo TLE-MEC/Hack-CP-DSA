@@ -16,8 +16,8 @@ public:
         if(root==NULL)return;
         if(root->left==NULL && root->right==NULL) ans.push_back(root->val);
         // go till leaf and simply push to vector
-        dfs(root->right,ans);
-        dfs(root->left,ans);
+        dfs(root->right,ans); //recursion call on right subtree
+        dfs(root->left,ans);//recursion call on left subtree
     }    
     
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
@@ -26,6 +26,7 @@ public:
         dfs(root2,v2);
         if(v1.size()!=v2.size())return false;
         for(int i=0;i<v2.size();i++){
+            //traverse and check if the value of leaf nodes are equal or not
             if(v1[i]!=v2[i]){
                 return false;
             }
