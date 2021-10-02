@@ -1,3 +1,6 @@
+# For grid[i][j], it can't be higher than the maximun of its row and column.
+# So the maximum increasing height for a building at (i, j) is min(row[i], col[j]) - grid[i][j]
+
 class Solution:
     def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:
         res = 0

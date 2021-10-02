@@ -1,3 +1,6 @@
+# Each diagnol will have the same value of i - j, where i is the index of row and j is the index of column.
+# So we get all the elements in a particular diagnol, sort them and then put them back in their correct places.
+
 class Solution:
     def diagonalSort(self, mat: List[List[int]]) -> List[List[int]]:
         d = {}
