@@ -3,7 +3,7 @@ class Solution {
 public:
     int kConcatenationMaxSum(vector<int>& arr, int k) {
         
-        // Time limit exceeded in brute Force - because that is O(n * k) solution
+        // Time limit exceeded in our first attempt - because this is O(n * k) solution
         // Kadane algorithm optimisation - O(n) approach
         
         ll s = 0;
