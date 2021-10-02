@@ -2,6 +2,8 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int total = 0;
+        /* In this program we have to use DP to find the maximum amount of water that can be store in this height array. 
+        Consider the values in the array as the length of the wall and final asnwer will be the area*/
         for(int i=0;i<height.size();i++)
         {
             int maxL = 0;
