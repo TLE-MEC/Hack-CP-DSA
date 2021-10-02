@@ -44,7 +44,7 @@ typedef pair<int, int> pii;
 int main()
 {
     ll n;
-    cin >> n;
+    cin >> n; // Bank balance
     vector<ll> arr(5);
     ll x = n;
     ll sum = 0;
@@ -53,12 +53,13 @@ int main()
     arr[1] = 20;
     arr[2] = 10;
     arr[3] = 5;
-    arr[4] = 1;
+    arr[4] = 1; 
+    // arr -> [100,20,10,5,1]
     while (x > 0)
     {
-        ll q = x / arr[i];
-        x -= arr[i] * q;
-        ans += q;
+        ll q = x / arr[i]; // maximum no. of arr[i] currency
+        x -= arr[i] * q; // rest money left
+        ans += q; // adding 
         i++;
     }
     cout << ans << endl;
