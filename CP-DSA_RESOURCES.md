@@ -10,6 +10,7 @@
 * [freeCodeCamp](https://www.freecodecamp.org/learn/)
 * [AtCoder](https://atcoder.jp/)
 * [Spoj](https://www.spoj.com/problems/classical/)
+* [CodingNinjas](https://www.codingninjas.com/codestudio/problems)
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
@@ -19,6 +20,10 @@
 
 [CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
 
+[CSES-Problem-set](https://cses.fi/problemset/)- A good place to find data-structure wise best problem for compititive programming.
+
+[Codeforces-ladder](https://codeforcesladders.firebaseapp.com/)- This is must practice side for codeforces to improve rating.
+it contain rating wise question. so it helps to improve your rating .
 
 ### Tutorials to improve Competitive Programming:
 * [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/) - A list of best tutorials written by respected Topcoder members.
@@ -52,3 +57,4 @@
 
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
+[Introduction to Algorithms - CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) It is a very useful book for Competitive Programming as well as for interview preparation. 
