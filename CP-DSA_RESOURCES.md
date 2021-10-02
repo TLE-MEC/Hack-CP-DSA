@@ -80,3 +80,8 @@ it contain rating wise question. so it helps to improve your rating .
 
 [Introduction to Algorithms - CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) It is a very useful book for Competitive Programming as well as for interview preparation. 
 
+### Great sites for learning different algorithms
+
+[Go-to website for CP](https://cp-algorithms.com/)
+
+[MIT courseware for Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
