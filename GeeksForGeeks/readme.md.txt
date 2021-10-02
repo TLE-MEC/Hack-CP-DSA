@@ -1,0 +1,1 @@
+https://practice.geeksforgeeks.org/problems/check-for-bst/1/?company[]=Amazon&company[]=Amazon&problemType=functional&page=1&sortBy=submissions&query=company[]AmazonproblemTypefunctionalpage1sortBysubmissionscompany[]Amazon
