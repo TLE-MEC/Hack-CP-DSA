@@ -8,8 +8,8 @@ int main()
 {
     int n;
     cin >> n;
-    int pos;
-    for (int i = 1; i <= 1e5; i++)
+    long long pos;
+    for (long long i = 1; ; i++)
     {
         if (i * i > n)
         {
@@ -18,24 +18,11 @@ int main()
         }
     }
     int count = 0;
-    if (n & 1)
+    for (long long i = 2-(n%2); i < pos; i += 2)
     {
-        //when n is odd
-        for (int i = 1; i < pos; i += 2)
-        {
             if ((n - i * i) % (2 * i) == 0)
                 count++;
-        }
-    }
-    else
-    {
-        //when n is even
-        for (int i = 2; i < pos; i += 2)
-        {
-            if ((n - i * i) % (2 * i) == 0)
-                count++;
-        }
     }
     cout << count;
-    //Time complexity : O(1e5) --> rest all others work in less than or equal to 1e5
+    //Time complexity : O(sqrt(n)) i.e Proportion to Root of N
 }
