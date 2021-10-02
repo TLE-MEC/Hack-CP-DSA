@@ -5,7 +5,7 @@ class Solution{
         int rootVal=pre[0];
         Node root=new Node(rootVal);
         for(int i=1;i<pre.length;i++){
-            root=insert(pre[i],root);
+            root=insert(pre[i],root); //construct BST
         }
         return root;
     } 
@@ -15,9 +15,9 @@ class Solution{
             return root;
         }
         else if(val<root.data)
-        root.left=insert(val,root.left);
+        root.left=insert(val,root.left); //left child must be lesser than root
         else
-        root.right=insert(val,root.right);
+        root.right=insert(val,root.right); //right child must be greater than root
         return root;
     }
 }
