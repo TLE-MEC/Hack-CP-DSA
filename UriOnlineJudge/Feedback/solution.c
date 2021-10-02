@@ -2,20 +2,22 @@
  
 int main() {
  
- int i = 0, j = 0, n, k, x;
+ int i = 0, j = 0, n, k, x; //initalizing values
  
  scanf("%d", &n);
  
- for(i = 0; i < n; ++i)
+ for(i = 0; i < n; ++i) 
  {
-  scanf("%d", &k);
+  scanf("%d", &k); //K lines with and integer representing the category of each of the feedbacks
   
   for(j = 0; j < k; ++j)
   {
    scanf("%d", &x);
    
+   //Printing names as per the assignment
+   
    if(x == 1){
-    printf("Rolien\n");
+    printf("Rolien\n"); 
    }else if(x == 2){
        printf("Naej\n");
    }else if(x == 3){
