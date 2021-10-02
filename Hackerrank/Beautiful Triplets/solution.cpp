@@ -21,7 +21,7 @@ int beautifulTriplets(int d, vector<int> arr) {
     int count=0;
     for(auto &x:arr)
     {
-        if(s.count(x+d) && s.count(x+(2*d)))count++;//loop through the array and check if the current element +d and current element+sd is present on the array if present increment the counter
+        if(s.count(x+d) && s.count(x+(2*d)))count++;//loop through the array and check if the current element +d and current element+2d is present on the array if present increment the counter
 
     }
     return count;//return the count
