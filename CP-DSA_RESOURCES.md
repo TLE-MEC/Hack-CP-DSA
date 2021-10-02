@@ -1,4 +1,4 @@
-# Useful Resouces for Competitive Programming
+# Useful Resources for Competitive Programming
 
 ### Websites to practice 
 * [Hackerrank](https://www.hackerrank.com/)
@@ -27,6 +27,7 @@
 
 * [Errichto's Youtube Channel](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - Good video tutorials about competitive programming.
 
+* [The Ultimate Topic List(with Resources, Problems and Templates)](https://codeforces.com/blog/entry/95106) - This is a codeforces blog that contains many important competitive programming algorithms and realted problems. 
 
 ### Websites to take mock interviews: 
 
@@ -41,6 +42,7 @@
 * [Cheat_Sheet](https://docs.google.com/document/d/155FKIzQZyBZa1RhtesoOjjy3AgVZv4s8CZhOi3X2uFk/edit) Covers some important problems
 * [must_do](https://docs.google.com/spreadsheets/d/1k4KCjbBfgp3RdARQFZWpvqICuJ2M0rkvOG1DmRYDKU0/edit#gid=2055291123) Here you can find some of the most frequent problems asked in interviews
 * [DSA Cracker Sheet](https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view) Covers all the important questions from all the topics for beginner.
+* [Leetcode DSA Sheet](https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit#gid=0)Contains 250 questions on DSA for Coding Interviews
 
 ### Important books to practice for interviews
 
