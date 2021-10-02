@@ -10,6 +10,7 @@
 
 // We try to order elements such that when put one after another
 // they result in sorted non- decreasing order order.
+//
 // And , our answer always lies at:
 // Case 1: either the end of First queue i.e (largest element in first queue)
 //       : the starting of Second queuue i.e (smallest element in second queue)
@@ -25,7 +26,7 @@ public:
     // largest element is stored at the top
     priority_queue<int> pqMax;
     
-    //stores elements in non- increasing order
+    // stores elements in non- increasing order
     // smallest element is stored at the top
     priority_queue<int,vector<int>,greater<>> pqMin;
     
