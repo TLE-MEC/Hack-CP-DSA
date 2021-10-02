@@ -25,3 +25,8 @@ pull_request_rules:
     actions:
       close: 
         message: Your PR has been closed due to not aligning with the contribution guidelines. Please go through [Contributing.md](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) and send another PR, Thanks.
+  - name: Close inactive pull request
+    conditions:
+      - label=inactive-close
+    actions:
+      close:
