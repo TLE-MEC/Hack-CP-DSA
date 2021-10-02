@@ -35,6 +35,8 @@ it contain rating wise question. so it helps to improve your rating .
 
 * [A Way to Practice Competitive Programming](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view) - This tutorial will help you get from Rating 1000 to 2400+ on Codeforces. It is written by Codeforces Grandmaster Masataka Yoneda.
 
+* [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - This is a free and premium course to kickstart your Competitive Programming journey.
+
 * [Errichto's Youtube Channel](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - Good video tutorials about competitive programming.
 
 * [The Ultimate Topic List(with Resources, Problems and Templates)](https://codeforces.com/blog/entry/95106) - This is a codeforces blog that contains many important competitive programming algorithms and realted problems. 

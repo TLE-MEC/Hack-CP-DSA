@@ -18,10 +18,29 @@ pull_request_rules:
     actions:
       review:
         type: REQUEST_CHANGES
-        message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved.
+        message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved. This PR will be closed if the requested changes are not made soon, Thanks.
+  - name: Request change in folder name
+    conditions:
+      - label=dont-merge
+    actions:
+      review:
+        type: REQUEST_CHANGES
+        message: Hey there, please rename your folder or file names such that they dont contain any special characters or numbers. Thanks.
   - name: Close invalid pull request
     conditions:
       - label=invalid
     actions:
       close: 
         message: Your PR has been closed due to not aligning with the contribution guidelines. Please go through [Contributing.md](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) and send another PR, Thanks.
+  - name: Close inactive pull request
+    conditions:
+      - label=inactive-close
+    actions:
+      close:
+  - name: label on conflicts
+    conditions:
+      - conflict
+    actions:
+      label:
+        add:
+          - conflict-no-approve
