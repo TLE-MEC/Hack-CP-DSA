@@ -2,7 +2,7 @@
 #define int long long
 using namespace std;
 
-int binary(int arr[], int n, int key)
+int binary(int arr[], int n, int key) //code for binary search algorithm
 {
     int s = 0, e = n - 1;
     while (s <= e)
@@ -21,26 +21,26 @@ int binary(int arr[], int n, int key)
 int32_t main()
 {
 
-    int t;
-    cin >> t;
+    int t;  //taking input for number of test cases
+    cin >> t; 
 
     while (t--)
     {
         int n;
         cin >> n;
 
-        int arr[n];
+        int arr[n]; //creating an array for input of array A
         for (int i = 0; i < n; i++)
             cin >> arr[i];
 
-        int nextArr[n - 1];
+        int nextArr[n - 1]; //creating an array for input of array B
         for (int i = 0; i < n - 1; i++)
             cin >> nextArr[i];
 
-        sort(arr, arr + n);
-        sort(nextArr, nextArr + n - 1);
+        sort(arr, arr + n); 
+        sort(nextArr, nextArr + n - 1); // sorted both the arrays in ascending order
 
-        if (n == 2)
+        if (n == 2) //analying the corner case if n is equal to 2
         {
             if (nextArr[n - 2] - arr[n - 1] > 0)
                 cout << nextArr[n - 2] - arr[n - 1] << '\n';
@@ -49,7 +49,7 @@ int32_t main()
             continue;
         }
 
-        int possible = nextArr[n - 2] - arr[n - 1];
+        int possible = nextArr[n - 2] - arr[n - 1]; //this represents difference between biggest numbers in both arrays
 
         if (possible <= 0)
         {
@@ -57,7 +57,7 @@ int32_t main()
             continue;
         }
 
-        int copyArr[n - 1];
+        int copyArr[n - 1]; //making a new array with values as differnce of integres in array B and the integer possible
         for (int i = 0; i < n - 1; i++)
             copyArr[i] = nextArr[i] - possible;
 
@@ -65,16 +65,16 @@ int32_t main()
 
         for (int i = 0; i < n - 1; i++)
         {
-            int pos = binary(arr, n, copyArr[i]);
+            int pos = binary(arr, n, copyArr[i]); //using binary search to find out whether the element exists in the array copy or not
             if (pos == -1)
             {
                 flag = 0;
-                cout << nextArr[n - 2] - arr[n - 2] << '\n';
+                cout << nextArr[n - 2] - arr[n - 2] << '\n'; 
                 break;
             }
         }
 
         if (flag)
-            cout << possible << '\n';
+            cout << possible << '\n'; 
     }
 }
