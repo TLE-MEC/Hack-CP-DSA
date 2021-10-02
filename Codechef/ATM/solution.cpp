@@ -8,6 +8,9 @@
 //     if the condition is satisfied, we return (b-a-0.50) as the remaining balance 
 //     else return b 
 
+// TIME COMPLEXITY: O(1)
+// SPACE COMPLEXITY: O(1)
+
 // NOTE: 
 // 1. Since input consists of decimal values, we use double to store ans.
 // 2. The answer should have a precision of 2 decimal places, so we need to use setprecision(2)
