@@ -33,6 +33,8 @@ In this resource , a step by step guide is provided along with the practice prob
 [Codeforces Problems](https://tom0727.github.io/cf-problems/) - Similar to Kenkooo Atcoder table but it is only for the problems of the Codeforces
 [CSES-Problem-set](https://cses.fi/problemset/)- A good place to find data-structure wise best problem for compititive programming.
 
+[Google CodeJam Archives](https://codingcompetitions.withgoogle.com/codejam/archive) - This website includes the questions asked in one of the most prestigious Competitive Programming Competition conducted by Google.
+
 [Codeforces-ladder](https://codeforcesladders.firebaseapp.com/)- This is must practice side for codeforces to improve rating.
 it contain rating wise question. so it helps to improve your rating .
 
