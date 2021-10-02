@@ -44,26 +44,6 @@ EXPLANATION:
     In the second example, we'll print the first 2 lines of the given pattern.
 */
 
-// #include <iostream>
-// using namespace std;
-
-// int main()
-// {
-//     int N, show, j = 1, k = 1;
-//     cin >> N;
-//     for (int i = 0; i < N; i++)
-//     {
-//         for (j = k; j <= (i + 1) * 5; j++)
-//             cout << j << " ";
-//         cout << endl;
-//         for (k = (i + 2) * 5; k >= j; k--)
-//             cout << k << " ";
-//         cout << endl;
-//     }
-//     cin >> show;
-//     return 0;
-// }
-
 #include <iostream>
 using namespace std;
 
