@@ -12,6 +12,7 @@
 * [Spoj](https://www.spoj.com/problems/classical/)
 * [CodingNinjas](https://www.codingninjas.com/codestudio/problems)
 
+
 [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
 [InterviewBit](https://www.interviewbit.com/) - A great website to practice interview questions from top companies.
@@ -19,6 +20,8 @@
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
 [CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
+
+[Pepcoding](https://www.pepcoding.com/resources/) - One of the most recommended resource to learn Data Structures and Algorithms.
 
 
 ### Tutorials to improve Competitive Programming:
