@@ -11,4 +11,4 @@ Expected Auxiliary Space: O((n+m)/2)
 0 ≤ m,n ≤ 104
 1 ≤ array1[i], array2[i] ≤ 105
 
-Tag : **Medium**
+Tag : **Hard**
