@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
-
-template<bool... digits> int reversed_binary_value(){
+//Editable code--------------------------------------------------------------------------------------
+template<bool... digits> 
+int reversed_binary_value(){
     int sum = 0;
     int product = 1;
-    bool binary[] = { digits... };
-    for (bool digit : binary) {
+    bool binary[] = { digits... }; //array of type bool with 0 or more elements
+    for (bool digit : binary) {   // convert bit array into integer number(reversed)
         sum += (digit ? product : 0);
         product *= 2;
     }
-    return sum;
+    return sum; // return number
 };
-
+//----------------------------------------------------------------------------------------------------
 
 template <int n, bool...digits>
 struct CheckValues {
