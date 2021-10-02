@@ -30,6 +30,8 @@
 
 * [The Ultimate Topic List(with Resources, Problems and Templates)](https://codeforces.com/blog/entry/95106) - This is a codeforces blog that contains many important competitive programming algorithms and realted problems. 
 
+* [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - MIT6.006 Introduction to Algorithms is a free premium course to kickstart your Competitive Programming journey. 
+
 ### Websites to take mock interviews: 
 
  * [Pramp](https://www.pramp.com/) - Here you can take free mock interviews based on data structures and algorithms, behavioural skills, product management and a lot more domains to explore.
