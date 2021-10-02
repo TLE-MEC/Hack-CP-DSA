@@ -7,7 +7,7 @@ int main()
 	cin >> t;
 	while(t--)
 	{
-		map <int, int> mp;
+		map <int, int> mp; //for storing position of station and minimum time required to reach that station
 		cin >> n >> m;
 		int arr1[n], arr2[m];
 		for(int i=1; i<=n; i++)
@@ -20,6 +20,7 @@ int main()
 		}
 		mp[1] = 0;
 		int p_one = -1;
+		// for the trains going from left to right
 		for(int i=1; i<=n; i++)
 		{
 			if(arr1[i]==1)
@@ -31,6 +32,7 @@ int main()
 			}
 		}
 		int p_two = -1;
+		// for the trains going from right to left
 		for(int i=n; i>=1; i--)
 		{
 			if(arr1[i]==2)
