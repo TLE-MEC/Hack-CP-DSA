@@ -20,6 +20,8 @@ In this resource , a step by step guide is provided along with the practice prob
 
 [InterviewBit](https://www.interviewbit.com/) - A great website to practice interview questions from top companies.
 
+[PrepInsta](https://prepinsta.com/data-structures/) - It is great place to learn DSA through questions for interview preparation.
+
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
 [CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
