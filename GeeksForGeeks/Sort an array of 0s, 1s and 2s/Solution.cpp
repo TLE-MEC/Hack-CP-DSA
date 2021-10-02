@@ -1,11 +1,11 @@
 //Concept:- Dutch National Flag problem
 
-//We will make 3 pointers low, mid and high
+/*We will make 3 pointers low, mid and high
 //low = mid = array[0] and high = array[n-1]
 //Iterate till (mid<=high)
 //If array[mid] = 0 then swap array[low] with array[mid] and increment low and mid by 1 i.e (low=low+1 and mid=mid+1)
 //if array[mid] = 1 just increment mid by 1 i.e (mid=mid+1)
-//if array[mid] = 2 then swap a[mid] with a[high] and Decrement high by 1 i.e (high=high-1)
+if array[mid] = 2 then swap a[mid] with a[high] and Decrement high by 1 i.e (high=high-1)*/
 
 // Time complexity :- O(n)
 // As the array is traversed only once therefore, the time complexity of the algorithm is O(n).
