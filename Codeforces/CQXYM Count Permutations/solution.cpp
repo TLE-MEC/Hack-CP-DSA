@@ -1,35 +1,20 @@
+// including needed file for c++
 #include <bits/stdc++.h>
 #define ll long long
 #define ul unsigned long long
 #define modu 1000000007
 using namespace std;
 
-vector<ll> visited(10000001, 1);
-set<ll> ans;
-void seive()
-{
-    visited[0] = 0, visited[1] = 0;
-
-    for (int i = 2; i * i < 1000; i++)
-    {
-        if (visited[i])
-        {
-            ans.insert(i);
-            for (int j = i * 2; j < 1000; j += i)
-            {
-                visited[j] = 0;
-            }
-        }
-    }
-}
+// declaring test function
 void test(void);
+// declaring main function
 int main()
 {
 
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-
+ // input output
 #ifndef ONLINE_JUDGE
     // For getting input from input.txt file
     freopen("input.txt", "r", stdin);
@@ -40,14 +25,11 @@ int main()
 
     long long T = 1;
     cin >> T;
-    // ll k = 1;
-    // seive();
+    // run for each test cases
     while (T--)
     {
-        // cout << "Case #" << k << ": ";
-        // print(T);
+        // calling function
         test();
-        // k++;
     }
 #ifndef ONLINE_JUDGE
     cout << "\nTime Elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " sec\n";
@@ -57,8 +39,10 @@ int main()
 
 void test(void)
 {
+    // taking input 
     ll n;
     cin >> n;
+    // here we are using logic that until n>2 means there is atleast 2 value muliply ans with no of element
     n *= 2;
     ll ans = 1;
     while (n > 2)
@@ -67,7 +51,6 @@ void test(void)
         ans %= modu;
         n--;
     }
-    // ans /= 2;
-    // cout << "TGASD\n";
+    // print the ans
     cout << ans << endl;
 }
