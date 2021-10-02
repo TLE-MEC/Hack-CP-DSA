@@ -19,6 +19,11 @@
 
 [CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
 
+[USACO](https://usaco.guide/dashboard/) - A great place to start your competitive programming journey. Made by Legendary Grandmaster Benq
+
+[Kenkoooo Atcoder](https://kenkoooo.com/atcoder/#/table/) - Table which list all the problems of Atcoder along with mutlitple features. Limited to problems of Atcoder Only
+
+[Codeforces Problems](https://tom0727.github.io/cf-problems/) - Similar to Kenkooo Atcoder table but it is only for the problems of the Codeforces
 
 ### Tutorials to improve Competitive Programming:
 * [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/) - A list of best tutorials written by respected Topcoder members.
@@ -29,6 +34,8 @@
 
 * [The Ultimate Topic List(with Resources, Problems and Templates)](https://codeforces.com/blog/entry/95106) - This is a codeforces blog that contains many important competitive programming algorithms and realted problems. 
 
+* [Useful Blogs(Tutorials, Problems, Tricks and many more)](https://codeforces.com/blog/entry/91363) - This is a codeforces blog that contains all the things for your need.
+
 ### Websites to take mock interviews: 
 
  * [Pramp](https://www.pramp.com/) - Here you can take free mock interviews based on data structures and algorithms, behavioural skills, product management and a lot more domains to explore.
@@ -36,6 +43,10 @@
 
 ### Websites to track progress
 * [StopStalk](https://www.stopstalk.com/) - Here you can track your progress accross various websites and compare it with your friends and professional competitive coders.
+
+* [Codeforces Visualizer](https://cfviz.netlify.app/) - Track your Codeforces progress
+
+* [450 DSA Tracker](https://450dsa.com/) - Track your progress of famous DSA sheet of 450 DSA Questions by Love Babbar
 
 ### Important Problems for Interviews
 * [SDE Sheet](https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit) Covers all the important topics for placements(with solutions).
