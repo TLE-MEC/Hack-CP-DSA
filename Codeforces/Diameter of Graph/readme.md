@@ -1,5 +1,5 @@
 # Diameter of graph
 
-## problem link : https://codeforces.com/problemset/problem/1266/B
+## problem link : (Diameter of graph)[https://codeforces.com/contest/1581/problem/B]
 
 ## rated 1200
