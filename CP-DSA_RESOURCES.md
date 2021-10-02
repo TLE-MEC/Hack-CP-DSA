@@ -1,5 +1,9 @@
 # Useful Resources for Competitive Programming
 
+### A Step By Step Guide To CP
+In this resource , a step by step guide is provided along with the practice problems to become good at cp from a red coder himself.
+* [CP GUIDE](https://shahjalalshohag.github.io/topic-list/)
+
 ### Websites to practice 
 * [Hackerrank](https://www.hackerrank.com/)
 * [Leetcode](https://leetcode.com/)
@@ -71,3 +75,4 @@ it contain rating wise question. so it helps to improve your rating .
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
 [Introduction to Algorithms - CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) It is a very useful book for Competitive Programming as well as for interview preparation. 
+
