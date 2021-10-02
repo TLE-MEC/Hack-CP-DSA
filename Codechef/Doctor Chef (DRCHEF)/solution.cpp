@@ -1,12 +1,13 @@
 /*
 code by iamkakashi
 */
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-ll nextPower(ll n)
-{
 
+// find nextpower of two for n
+ll nextPower(ll n){
     n--;
     n |= n >> 1;
     n |= n >> 2;
@@ -16,8 +17,8 @@ ll nextPower(ll n)
     n++;
     return (log10(n)/log10(2));
 }
-ll binarySearch(ll arr[], ll l, ll r, ll x)
-{
+// binary searching code
+ll binarySearch(ll arr[], ll l, ll r, ll x){
     if (r >= l) {
         ll mid = l + (r - l) / 2;
         if (arr[mid] == x)
@@ -30,8 +31,8 @@ ll binarySearch(ll arr[], ll l, ll r, ll x)
     }
     return -1;
 }
-ll binarySearch2(ll arr[], ll l, ll r, ll x)
-{
+// searching for index (ind) having value less than x and (ind+1) value greater than x using binary search 
+ll binarySearch2(ll arr[], ll l, ll r, ll x){
     if (r >= l) {
         ll mid = l + (r - l) / 2;
         if (arr[mid]<x && arr[mid+1]>x)
@@ -46,16 +47,22 @@ ll binarySearch2(ll arr[], ll l, ll r, ll x)
 }
 int main(){
     ll t;
+    // input testcases
     cin>>t;
     while(t--){
+        // input n & k where n is number of countries and k is amout of cure ready.
         ll n,k,ans=0;
         cin>>n>>k;
         ll a[n];
+        // Array to store population of each country
         for(ll i=0;i<n;i++){
             cin>>a[i];
         }
+        // sort population of countries in increasing order
         sort(a,a+n);
+        // if all countries have same population
         if(a[0]==a[n-1]){
+            // if amount of cure available on day 1 are greater than or equal to needed.
             if(k>=a[0]){
                 ans=n;
             }
@@ -67,6 +74,7 @@ int main(){
                 ans=ans+n;
             }
         }
+        // if all countries doesn't have same population
         else{
             ll moves=0;
             while(moves<n){
@@ -74,20 +82,26 @@ int main(){
                     ans+=(n-moves);
                     break;
                 }
+                // search for index having population equal to cures available
                 ll index=binarySearch(a,0,n-1,k);
+                // if there is no such population equal to cures available
                 if(index!=-1){
                     a[index]=0;
                     k=2*k;
                     moves++;
                 }
+                // if there is population equal to cures available
                 else{
+                    // find index having value less than k and next index having value greater than k
                     ll ind=binarySearch2(a,0,n-1,k);
                     ll q=a[ind+1]/k;
+                    // if there is no index which have value less than k and next index having value greater than k
                     if(ind!=-1){
                         ll q1=(k*q);
                         if(q1!=a[ind+1]){
                             q=q+1;
                         }
+                        // find nextpower of two for q
                         q=nextPower(q);
                         if(a[ind]!=0){
                             ll p=a[ind+1]/a[ind];
@@ -95,6 +109,7 @@ int main(){
                             if(p1!=a[ind+1]){
                                 p=p+1;
                             }
+                            // find nextpower of two for p
                             p=nextPower(p);
                             if(p<=q){
                                 k=2*a[ind];
@@ -127,6 +142,7 @@ int main(){
                             k=2*k;
                         }
                     }
+                    // if there is index which have value less than k and next index having value greater than k
                     else{
                         ll pre=a[n-1];
                         a[n-1]=a[n-1]-k;
@@ -140,10 +156,12 @@ int main(){
                         k=2*k;
                     }
                 }
+                // sort the population array
                 sort(a,a+n);
                 ans++;
             }
         }
+        // output the answer
         cout<<ans<<endl;
     }
 
