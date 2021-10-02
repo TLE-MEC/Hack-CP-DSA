@@ -69,23 +69,23 @@ using namespace std;
 
 int main()
 {
-    int N, j = 1, k;
+    int N, j = 1, k; //First We initialze N as No of Lines, j as row and k as col
     cin >> N;
-    for (int i = 1; i <= N; i++)
+    for (int i = 1; i <= N; i++) //Run till no of Lines
     {
-        if (i % 2 == 1 || i == 1)
+        if (i % 2 == 1 || i == 1) // Here We apply condition for spaces
         {
             for (; j <= i * 5; j++)
                 cout << j << " ";
             cout << endl;
         }
-        else
+        else // Here we print number
         {
             for (int k = i * 5; k >= j; k--)
                 cout << k << " ";
             cout << endl;
         }
-        j = (i*5)+1;
+        j = (i*5)+1; 
     }
     return 0;
 }
