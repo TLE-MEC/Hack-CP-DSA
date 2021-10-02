@@ -3,7 +3,7 @@ using namespace std;
 
 // A driver function to reverse an array/vector from index x to index y using swap(x,y)
 void reverse(vector<int>& nums, long long int x, long long int y) {
-	for (long long int i = x, j = y; i < j; i++, j--) {
+	for (long long int i = x, j = y; i < j; i++, j--) {    //increment i and decrement j for each iteration
 		swap(nums[i], nums[j]);
 	}
 }
