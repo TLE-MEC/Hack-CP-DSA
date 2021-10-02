@@ -17,13 +17,14 @@ vector<string> split(const string &);
 
 
 int beautifulTriplets(int d, vector<int> arr) {
-    set<int> s(arr.begin(),arr.end());
+    set<int> s(arr.begin(),arr.end());//make a set from the array
     int count=0;
     for(auto &x:arr)
     {
-        if(s.count(x+d) && s.count(x+(2*d)))count++;
+        if(s.count(x+d) && s.count(x+(2*d)))count++;//loop through the array and check if the current element +d and current element+sd is present on the array if present increment the counter
+
     }
-    return count;
+    return count;//return the count
 }
 
 int main()
