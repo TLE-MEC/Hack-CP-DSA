@@ -1,4 +1,3 @@
-```
 //
 // The median is the middle value in an ordered (sorted) integer list. 
 // Case 1: If the size of list is odd, then the median is the middlemost element.
@@ -16,7 +15,6 @@
 //       : the starting of Second queuue i.e (smallest element in second queue)
 // Case 2: is the averge value of both.
 
-// pqMax
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -109,4 +107,3 @@ public:
     }
 };
 
-```
