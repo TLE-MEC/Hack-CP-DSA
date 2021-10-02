@@ -1,1 +1,1 @@
-problem link :- https://www.hackerrank.com/challenges/palindromes/problem
+problem link :- https://www.hackerrank.com/contests/doyoulikeit/challenges/doyoulikeit/problem

@@ -3,23 +3,33 @@
 using namespace std;
 
 bool checkPalin(string arr, int l, int s=0){
-
-	if (l<s){
-		return true;
-	}
-
-	if (arr[s] != arr[l]){
-		return false;
-	}
-	
-	return (arr, l-1, s+1);
+    //base condition 
+    //if starting index is greater then ending index then stop and return True
+    if (l<s){
+        return true;
+    }
+    //if start and end are not equal then not palindrome
+    if (arr[s] != arr[l]){
+        return false;
+    }
+    
+    //call recursion for next element from start and end
+    return checkPalin(arr, l-1, s+1);
 }
 
 int main(){
-	int n;
-	cin>>n;
-	string arr;
-	cin>>arr;
-	cout << checkPalin(arr, n-1);
-	
+    //take input
+    string arr;
+    cin>>arr;
+    //calculate length
+    int n = arr.length();
+    
+    //if palindrome then print YES
+    //else print NO
+    
+    if (checkPalin(arr, n-1)){
+        cout<<"YES";
+    }else{
+        cout<<"NO";
+    }   
 }
