@@ -25,7 +25,7 @@ pull_request_rules:
     actions:
       review:
         type: REQUEST_CHANGES
-        message: Hey there, please rename your folder/file names such that they dont contain any special characters or numbers. Thanks.
+        message: Hey there, please rename your folder or file names such that they dont contain any special characters or numbers. Thanks.
   - name: Close invalid pull request
     conditions:
       - label=invalid
