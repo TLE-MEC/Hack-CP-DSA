@@ -53,3 +53,4 @@
 
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
+[Introduction to Algorithms - CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) It is a very useful book for Competitive Programming as well as for interview preparation. 
