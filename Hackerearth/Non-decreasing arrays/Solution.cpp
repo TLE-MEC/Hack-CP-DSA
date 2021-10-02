@@ -29,7 +29,7 @@ using namespace __gnu_pbds;
 
 signed main()
 {
-    FIO;
+    FIO; // Flexible IO
 
     ll t;
 	cin>>t;
@@ -39,14 +39,14 @@ signed main()
 		cin>>n;
 		vi A(n),B;
 		for(ll i=0;i<n;i++){
-			cin>>A[i];
+			cin>>A[i]; //intake the input
 		}
 		B.pb(A[0]);
 		for(ll i=1;i<n;i++){
-			B.pb(((B.back()+A[i]-1)/A[i])*A[i]);
+			B.pb(((B.back()+A[i]-1)/A[i])*A[i]); //pushback current value vi. B.back to take previous element
 		}
 		for(auto it:B){
-			cout<<it<<" ";
+			cout<<it<<" "; 
 		}
 		cout<<endl;
 	}
