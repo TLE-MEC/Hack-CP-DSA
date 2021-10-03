@@ -23,7 +23,7 @@ pull_request_rules:
       - label=change-name
     actions:
       close:
-        message: Hey there, Your PR has been closed due to one or more of the following reasons:\n1. Your problem and/or solution file/folder are not named correctly. Please refer [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) for guidelines.\n2.Your file/folder name contains special characters or leading digits, please remove them.\nYou may submit another Pull Request with the necessary changes made, Thanks
+        message: Hey there, Your PR has been closed due to one or more of the following reasons:1) Your problem and/or solution file/folder are not named correctly. Please refer [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) for guidelines. 2) Your file/folder name contains special characters or leading digits, please remove them. You may submit another Pull Request with the necessary changes made, Thanks
   - name: Close if files are missing
     conditions:
       - label=missing-file
