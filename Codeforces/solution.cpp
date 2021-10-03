@@ -47,15 +47,7 @@ In the first test case, when Alice evaluates any of the sums 1+9, 2+8, 3+7, 4+6,
 
 */
 
-#include<iostream>
-#include<vector>
-#include<algorithm>
-#include<string>
-#include<unordered_map>
-#include<queue>
-#include<map>
-#include<math.h>
-#include<set>
+#include<bits/stdc++.h>
 using namespace std;
 #define ll long long 
  
@@ -66,12 +58,14 @@ int main() {
     cin>>t;
  
     while(t--) {
+        //Number is taken in the form of string for easy access of the digits..
         string s;
         cin>>s;
  
         string a = "",b="";
         int n = s.length();
- 
+
+        //processing the digits one by one...
         for(int i=0;i<n;i++) {
             if(i%2==0)
             a+=s[i];
@@ -79,7 +73,9 @@ int main() {
             else
             b+=s[i];
         }
- 
+
+        //alternating the digits...
+        //Number is formed by taking the alternating digits of the main number..
         int n1,n2;
         n1 = (a=="")?0:stoi(a);
         n2 = (b=="")?0:stoi(b);
@@ -111,6 +107,8 @@ int main() {
             else
             d2 = (n2/2)*2+1;
         }
+
+        //final answer is stored in x..
  
         int x = (d1*d2)-2;
  
