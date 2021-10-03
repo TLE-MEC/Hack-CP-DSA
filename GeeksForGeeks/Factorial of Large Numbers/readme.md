@@ -11,6 +11,8 @@ Output: 120
 Explanation : 5! = 1*2*3*4*5 = 120
 
 
+
+
 Example 2:
 
 Input: N = 10
@@ -25,9 +27,12 @@ You don't need to read input or print anything. Complete the function factorial(
 
 
 Expected Time Complexity : O(N2)
+
 Expected Auxilliary Space : O(1)
 
 
 Constraints: 1 ≤ N ≤ 1000
+
 Level: Medium
+
 Topic: Combinatorial, Number Theory, Strings
