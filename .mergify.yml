@@ -17,7 +17,7 @@ pull_request_rules:
       - label=add-comments
     actions:
       close:
-        message: Hey there, please add comments to your solution explaining the logic used. This is clearly mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines.You may submit another Pull Request with the necessary changes made, Thanks
+        message: Hey there, please add comments to your solution explaining the logic used. This is clearly mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines. You may submit another Pull Request with the necessary changes made, Thanks
   - name: Close if file or folder names invalid
     conditions:
       - label=change-name
