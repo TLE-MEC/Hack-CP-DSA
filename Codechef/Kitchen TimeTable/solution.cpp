@@ -3,11 +3,13 @@
 using namespace std;
 int main() {
 	// your code goes here
+	// t being number of test cases
 	int t;
 	cin>>t;
 	for(int j=0;j<t;j++){
 	    int n;
 	    cin>>n;
+	    // two arrays arr and brr
 	    int arr[n],brr[n];
 	    for(int i=0;i<n;i++){
 	        cin>>arr[i];
@@ -15,6 +17,7 @@ int main() {
 	    for(int i=0;i<n;i++){
 	        cin>>brr[i];
 	    }
+	    // creating another array crr that is difference of two consecutive elements in array arr
 	    int crr[n];
 	    crr[0]=arr[0];
 	    for(int i=1;i<n;i++){
