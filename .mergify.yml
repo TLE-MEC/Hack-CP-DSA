@@ -7,7 +7,7 @@ pull_request_rules:
         message: Awesome :thumbsup:, Thanks for contributing to Hack-CP-DSA by [TLE MEC](https://www.instagram.com/tle.mec/) :smiley:!
       label:
         remove:
-          - changes-needed
+          - awaiting-changes
         add:
           - hacktoberfest-accepted
       merge:
