@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/github/contributors/TLE-MEC/Hack-CP-DSA">               <img src="https://img.shields.io/github/languages/count/TLE-MEC/Hack-CP-DSA"> <img src="https://img.shields.io/github/issues/TLE-MEC/Hack-CP-DSA">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-<img src="https://img.shields.io/tokei/lines/github/TLE-MEC/CP-DSA">
+<img src="https://img.shields.io/tokei/lines/github/TLE-MEC/Hack-CP-DSA">
 
 _Participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/) :question:_      
 _Wanna improve your problem solving skills :question:_      
@@ -15,7 +15,7 @@ _Well, you've come to the right place!_ :smiley:
 This is a beginner friendly repository for Competitive Programming & DSA problems and solutions💻       
 Our aim is to help you get practice on solving CP/DSA  problems from any platform of your choice and learn the basics of git & github, and also earn cool swags in the process 🎉   
 
-You can contribute to this repo by sending pull requests.    
+You can contribute to this repo by sending pull requests. If you are participating in hacktoberfest, make sure to register yourself [here](https://hacktoberfest.digitalocean.com/)   
 :pencil: Check out [CONTRIBUTING.MD](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) for instructions on how to contribute!   
 :pencil: Refer [MAKING A PULL REQUEST](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/MAKING_A_PR.md) if you want to know how to make a pull request    
 
