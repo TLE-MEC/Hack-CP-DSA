@@ -34,8 +34,8 @@ The idea behind this repo is to help you to get comfortable with the process of 
 Please read the following points carefully 
 * The `readme` file should only contain either the link to the problem OR the problem itself. DON'T add anything related to the solution in the `readme` file.
 * In your `solution`, **ADD THE LOGIC USED FOR SOLVING IN THE FORM OF COMMENTS EITHER ALONG WITH THE CODE or AT THE BEGINNING OF THE CODE. (if possible include the Time and Space complexities also)**
-* Please make sure that your **folder & file names do not contain any special characters and numbers.**
 * More emphasis is given on understanding the logic used to get the solution rather than the code itself. Hence simply copy-pasting code is not encouraged. 
+* Please make sure that your **folder & file names do not contain any invalid characters, leading digits or trailing whitespaces.**
 **Any solution you add must be your own and not plagiarized in any manner.** 
 
 #### As long as your PR adheres with all the points mentioned above, you're good to go :sparkles:
