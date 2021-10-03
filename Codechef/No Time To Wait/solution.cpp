@@ -7,7 +7,7 @@ int main()
     h=number of hours needed for chef to solve that question,
     and x=number of hours left with chef*/
     int t[n];   //taking an array of size n
-    string f="yes"; //initiating a temporary variable x
+    string f="yes"; //initiating a temporary variable f
     for(int i=0;i<n;i++)
         cin>>t[i];  //taking input of the timezones to which chef can jump
     for(int i=0;i<n;i++)
