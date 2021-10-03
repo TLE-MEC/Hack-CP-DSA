@@ -1,3 +1,6 @@
+// here we have to count minimum seconds it takes to open or close the doors in left or right.
+// all the doors in left and right either should be open or should be closed
+
 #include<iostream>
 using namespace std;
 
