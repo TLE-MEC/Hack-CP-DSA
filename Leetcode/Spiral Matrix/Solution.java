@@ -32,7 +32,7 @@ class Solution {
             }
             bottom--;
             
-            //Get every i in the right column
+            //Get every i in the left column
             for(int i= bottom; left<=right && i>=top; i--){
                 res.add(matrix[i][left]);
             }
