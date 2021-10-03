@@ -1,52 +1,12 @@
-// { Driver Code Starts
-// driver code
-
-#include <bits/stdc++.h>
-using namespace std;
-
-struct Node
-{
-    int data;
-    Node* next;
-    
-    Node(int val)
+bool detectLoop(Node* head)
     {
-        data = val;
-        next = NULL;
-    }
-};
-
-void loopHere(Node* head, Node* tail, int position)
-{
-    if(position==0) return;
-    
-    Node* walk = head;
-    for(int i=1; i<position; i++)
-        walk = walk->next;
-    tail->next = walk;
-}
-
-
- // } Driver Code Ends
-/*
-struct Node
-{
-    int data;
-    struct Node *next;
-    Node(int x) {
-        data = x;
-        next = NULL;
-    }
-*/
-class Solution
-{
-    public:
-    //Function to check if the linked list has a loop.
-    bool detectLoop(Node* head)
-    {
-       Node *ptr=head;
+ //Here We are Intiallizing Two Pointer Where One Point Will Move Faster and Second Will Move Slow to the LinkedList
+// Now One Time Finally Come Where Faster Pointer(ptr) and Solower Pointer(qtr) are at the same node
+//then we return that yes this linked list is have loop if not then we will false No Loop Found in this Linked List
+       Node *ptr=head; 
        Node *qtr=head;
        
+// Using Do-While to traverse to the LL
        do
        {
            ptr=ptr->next;
@@ -69,40 +29,3 @@ class Solution
        
     }
 };
-
-
-// { Driver Code Starts.
-
-int main()
-{
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        int n, num;
-        cin>>n;
-        
-        Node *head, *tail;
-        cin>> num;
-        head = tail = new Node(num);
-        
-        for(int i=0 ; i<n-1 ; i++)
-        {
-            cin>> num;
-            tail->next = new Node(num);
-            tail = tail->next;
-        }
-        
-        int pos;
-        cin>> pos;
-        loopHere(head,tail,pos);
-        
-        Solution ob;
-        if(ob.detectLoop(head) )
-            cout<< "True\n";
-        else
-            cout<< "False\n";
-    }
-	return 0;
-}
-  // } Driver Code Ends
