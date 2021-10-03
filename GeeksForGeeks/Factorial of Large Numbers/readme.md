@@ -36,3 +36,6 @@ Constraints: 1 ≤ N ≤ 1000
 Level: Medium
 
 Topic: Combinatorial, Number Theory, Strings
+
+
+Link: https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1
