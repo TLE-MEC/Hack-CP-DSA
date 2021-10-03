@@ -1,3 +1,3 @@
-Difficulty : Easy
+Difficulty: Easy   
 
-https://leetcode.com/problems/find-the-highest-altitude/
+Problem link: https://leetcode.com/problems/find-the-highest-altitude/
