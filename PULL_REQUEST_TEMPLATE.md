@@ -4,7 +4,8 @@ Example:  - [ ] Mark me as completed
 To mark: - [x] Mark me as completed
 
 - [ ] My Pull Request adheres to the **Contribution guidelines**.
-- [ ] I have added `readme.md` and `solution` files in the **appropriate folder**.
+- [ ] I have added `readme.md` and `solution` files in the **appropriate folder**
+- [ ] None of the folder and file names I have added contain any **invalid characters, leading digits or trailing whitespaces**
 - [ ] The solution I have given is my **own** and not plagiarized in any form.
 - [ ] My solution passes all the testcases.
 - [ ] I have properly indented and **documented my solution using comments**.

@@ -1,5 +1,9 @@
 # Useful Resources for Competitive Programming
 
+### A Step By Step Guide To CP
+In this resource , a step by step guide is provided along with the practice problems to become good at cp from a red coder himself.
+* [CP GUIDE](https://shahjalalshohag.github.io/topic-list/)
+
 ### Websites to practice 
 * [Hackerrank](https://www.hackerrank.com/)
 * [Leetcode](https://leetcode.com/)
@@ -16,6 +20,8 @@
 
 [InterviewBit](https://www.interviewbit.com/) - A great website to practice interview questions from top companies.
 
+[PrepInsta](https://prepinsta.com/data-structures/) - It is great place to learn DSA through questions for interview preparation.
+
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
 [CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
@@ -26,6 +32,8 @@
 
 [Codeforces Problems](https://tom0727.github.io/cf-problems/) - Similar to Kenkooo Atcoder table but it is only for the problems of the Codeforces
 [CSES-Problem-set](https://cses.fi/problemset/)- A good place to find data-structure wise best problem for compititive programming.
+
+[Google CodeJam Archives](https://codingcompetitions.withgoogle.com/codejam/archive) - This website includes the questions asked in one of the most prestigious Competitive Programming Competition conducted by Google.
 
 [Codeforces-ladder](https://codeforcesladders.firebaseapp.com/)- This is must practice side for codeforces to improve rating.
 it contain rating wise question. so it helps to improve your rating .
@@ -71,3 +79,11 @@ it contain rating wise question. so it helps to improve your rating .
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
 [Introduction to Algorithms - CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) It is a very useful book for Competitive Programming as well as for interview preparation. 
+
+### Great sites for learning different algorithms
+
+[Go-to website for CP](https://cp-algorithms.com/)
+
+[MIT courseware for Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+
+[Algorithm-visualisation](https://visualgo.net/en)
