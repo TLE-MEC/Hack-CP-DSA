@@ -18,7 +18,8 @@ int main()
         he wouldnt be able to solve that problem*/
         {
             cout<<f;
-            exit(0);
+            exit(0); /*when we get the required time zone our work is done
+            and so we exit from the program*/
         }
     }
     f="no";
