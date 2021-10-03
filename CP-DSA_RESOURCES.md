@@ -1,5 +1,9 @@
 # Useful Resources for Competitive Programming
 
+### A Step By Step Guide To CP
+In this resource , a step by step guide is provided along with the practice problems to become good at cp from a red coder himself.
+* [CP GUIDE](https://shahjalalshohag.github.io/topic-list/)
+
 ### Websites to practice 
 * [Hackerrank](https://www.hackerrank.com/)
 * [Leetcode](https://leetcode.com/)
@@ -16,11 +20,20 @@
 
 [InterviewBit](https://www.interviewbit.com/) - A great website to practice interview questions from top companies.
 
+[PrepInsta](https://prepinsta.com/data-structures/) - It is great place to learn DSA through questions for interview preparation.
+
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
 [CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
 
+[USACO](https://usaco.guide/dashboard/) - A great place to start your competitive programming journey. Made by Legendary Grandmaster Benq
+
+[Kenkoooo Atcoder](https://kenkoooo.com/atcoder/#/table/) - Table which list all the problems of Atcoder along with mutlitple features. Limited to problems of Atcoder Only
+
+[Codeforces Problems](https://tom0727.github.io/cf-problems/) - Similar to Kenkooo Atcoder table but it is only for the problems of the Codeforces
 [CSES-Problem-set](https://cses.fi/problemset/)- A good place to find data-structure wise best problem for compititive programming.
+
+[Google CodeJam Archives](https://codingcompetitions.withgoogle.com/codejam/archive) - This website includes the questions asked in one of the most prestigious Competitive Programming Competition conducted by Google.
 
 [Codeforces-ladder](https://codeforcesladders.firebaseapp.com/)- This is must practice side for codeforces to improve rating.
 it contain rating wise question. so it helps to improve your rating .
@@ -30,9 +43,13 @@ it contain rating wise question. so it helps to improve your rating .
 
 * [A Way to Practice Competitive Programming](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view) - This tutorial will help you get from Rating 1000 to 2400+ on Codeforces. It is written by Codeforces Grandmaster Masataka Yoneda.
 
+* [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - This is a free and premium course to kickstart your Competitive Programming journey.
+
 * [Errichto's Youtube Channel](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - Good video tutorials about competitive programming.
 
 * [The Ultimate Topic List(with Resources, Problems and Templates)](https://codeforces.com/blog/entry/95106) - This is a codeforces blog that contains many important competitive programming algorithms and realted problems. 
+
+* [Useful Blogs(Tutorials, Problems, Tricks and many more)](https://codeforces.com/blog/entry/91363) - This is a codeforces blog that contains all the things for your need.
 
 ### Websites to take mock interviews: 
 
@@ -41,6 +58,10 @@ it contain rating wise question. so it helps to improve your rating .
 
 ### Websites to track progress
 * [StopStalk](https://www.stopstalk.com/) - Here you can track your progress accross various websites and compare it with your friends and professional competitive coders.
+
+* [Codeforces Visualizer](https://cfviz.netlify.app/) - Track your Codeforces progress
+
+* [450 DSA Tracker](https://450dsa.com/) - Track your progress of famous DSA sheet of 450 DSA Questions by Love Babbar
 
 ### Important Problems for Interviews
 * [SDE Sheet](https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit) Covers all the important topics for placements(with solutions).
@@ -58,3 +79,9 @@ it contain rating wise question. so it helps to improve your rating .
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
 [Introduction to Algorithms - CLRS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) It is a very useful book for Competitive Programming as well as for interview preparation. 
+
+### Great sites for learning different algorithms
+
+[Go-to website for CP](https://cp-algorithms.com/)
+
+[MIT courseware for Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
