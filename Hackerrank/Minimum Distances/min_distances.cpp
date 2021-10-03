@@ -14,15 +14,21 @@ vector<string> split(const string &);
  */
 
 int minimumDistances(vector<int> a) {
+    // n is size of vector a
     int n = a.size();
+    
+    // defined temp and diff variable, diff is initialised a -1 because if there is no matching pair then it will return -1.
     int temp=0,diff=-1;
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(a[i]==a[j]){
+                // if number matches then take difference of indices.
                 temp=j-i;
+                // condition for first matching pair
                 if(temp>diff && diff==-1){
                     diff=temp;
                 }
+                // condition if there are more than 1 matching pair, then take the minimum. 
                 else if(temp<diff){
                     diff=temp;
                 }
