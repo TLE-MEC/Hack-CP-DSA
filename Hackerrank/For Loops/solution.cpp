@@ -1,29 +1,25 @@
-#include <iostream>
-#include <cstdio>
+#include <iostream>  //header file
+#include <cstdio>    //header file
 using namespace std;
 
-int main() {
+int main() {          //starting main function
     
-    int a,b;
-    cin>>a>>b;
+    int a,b;          //declaring integer variables
+    cin>>a>>b;        //taking input from user
     
-    string one[] = {" ", "one","two","three","four","five","six","seven","eight","nine"};
+    string one[] = {" ", "one","two","three","four","five","six","seven","eight","nine"};       //declaring a string 
     
-    for(int i=a;i<=b;i++){
-        if(i<=9){
+    for(int i=a;i<=b;i++){                  //starting for loop
+        if(i<=9){                           //if value of i is somewhere between a and b then it'll print the index value of that from string one[].
             cout<<one[i]<<endl;
         
         }
-        else if (i%2==0){
+        else if (i%2==0){                   //if i is even i.e devisible by 2 then print "even".
             cout<<"even"<<endl;
         }
         else{
-            cout<<"odd"<<endl;
+            cout<<"odd"<<endl;              //else print odd
         }
     }
-    
-    
-
-    // Complete the code.
-    return 0;
+    return 0;                               
 }
