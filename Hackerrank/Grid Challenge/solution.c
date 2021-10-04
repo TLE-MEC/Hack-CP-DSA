@@ -7,12 +7,10 @@ int main() {
     char m[105][105];
     ll t,n,i,j,f,cnt[26],k;
     ll a[105][105];
-    printf("Enter number of rows: ");
-    scanf("%lld",&t);
-    printf("\nEnter number of columns: ");
-    scanf("%lld",&n);
+    scanf("%lld",&t);                       /*number of testcases*/
     while(t--)
         {
+        scanf("%lld",&n);
         for(i=0;i<n;i++)
             {
             scanf("%s",m[i]);
