@@ -3,7 +3,7 @@
 	#include <cmath>
 	using namespace std;
 	 
-	main()
+	int main()
 	{
 	    int i,j,n=0;
 	    for(i=1;i<=5;i++)  //loop to start with row
