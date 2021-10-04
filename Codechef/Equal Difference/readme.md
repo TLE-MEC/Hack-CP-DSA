@@ -1,0 +1,3 @@
+## PROBLEM LINK FOR EQUAL DIFFERENCE
+
+https://www.codechef.com/COOK132B/problems/EQDIFFER
