@@ -12,9 +12,9 @@ _Well, you've come to the right place!_ :smiley:
 
 ###  :sparkles: Welcome to Hack CP-DSA by TLE MEC :sparkles:    
 This is a beginner friendly repository for Competitive Programming & DSA problems and solutions💻       
-Our aim is to help you get practice on solving CP/DSA  problems from any platform of your choice and learn the basics of git & github, and also earn cool swags in the process 🎉   
+Our aim is to help you get practice on solving CP/DSA  problems from any platform of your choice and learn the basics of git & github 🎉   
 
-You can contribute to this repo by sending pull requests. If you are participating in hacktoberfest, make sure to register yourself [here](https://hacktoberfest.digitalocean.com/)   
+You can contribute to this repo by sending pull requests.   
 :pencil: Check out [CONTRIBUTING.MD](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) for instructions on how to contribute!   
 :pencil: Refer [MAKING A PULL REQUEST](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/MAKING_A_PR.md) if you want to know how to make a pull request    
 
