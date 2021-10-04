@@ -27,10 +27,10 @@ int main()
     int n;  // To store array size
     cout << "Enter size of array: ";
     cin >> n;
-    vector<int> arr;
+    vector<int> arr;//vector to store all inputed color of socks
     cout << "Enter colors of socks with spaces: " << endl;
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)// To take input all colors
         cin >> arr[i];
-    cout << sockMerchant(n,arr) << endl;
+    cout << sockMerchant(n,arr) << endl;// calling function to give output of total paired socks
     return 0;
 }
