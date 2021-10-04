@@ -9,6 +9,7 @@ int main() {
 	while(t--)
 	{
 	    cin>>n>>m>>d>>D;
+		//your code goes here
 	    if( m<n*d )
 	        cout<<-1<<endl;
 	    else if( m>=n*d )

@@ -1,1 +1,1 @@
-Problem link: https://www.codechef.com/problems/ICPC16F
+https://www.codechef.com/problems/ICPC16F
