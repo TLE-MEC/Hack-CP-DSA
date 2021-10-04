@@ -54,3 +54,13 @@ pull_request_rules:
       label:
         add:
           - conflict-no-approve
+      comment:
+        message: Hey there, looks like there are some conflicting files. Please resolve the conflicts so that your Pull Request can be reviewed.
+  - name: remove conflict label if not needed
+    conditions:
+      - -conflict
+    actions:
+      label:
+        remove:
+          - conflict-no-approve
+
