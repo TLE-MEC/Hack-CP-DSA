@@ -6,8 +6,7 @@
 
 _Wanna improve your problem solving skills :question:_      
 _Wanna practice collaborating on github :question:_        
-_And also get cool swags in the process :question:_        
- 
+       
 _Well, you've come to the right place!_ :smiley:    
 
 ###  :sparkles: Welcome to Hack CP-DSA by TLE MEC :sparkles:    
