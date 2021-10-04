@@ -31,6 +31,8 @@ int numberOfOccurrenceEfficient(int arr[], int n, int x)
     {
         return lastOccurrence(arr, n, x) - first + 1;
     }
+    //Time complexity - O(logn)
+    //Auxiliary space - O(1) 
 }
 
 //Efficient solution - Func 2
