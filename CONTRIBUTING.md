@@ -9,7 +9,7 @@ You can contribute to this repo in any of the following ways
   * Should have 2 files: `readme.md` and `solution`
   * Add the link to the problem in `readme.md` file
   * Add your solution in any language in the `solution` file
-  * Solutions must be properly indented and explained with comments
+  * Solutions must be properly indented and **explained with comments**
 
 * Creating a new problem
   * Add it to misc folder 
@@ -17,12 +17,12 @@ You can contribute to this repo in any of the following ways
   * Should have 2 files: `readme.md` and `solution`
   * In `readme.md`, provide detailed explanation of problem statement and constraints with at least 2 testcases and it's explanation
   * Add your solution in any language in the `solution` file
-  * Solutions must be properly indented and explained with comments
+  * Solutions must be properly indented and **explained with comments**
 
 ## :bulb: Adding solutions to existing problems
 * You can contribute your solutions to any existing problem
 * Add it as a new file in the format solution_number eg: (`solution2`) in the respective problem folder
-* Solutions must be properly indented and explained with comments
+* Solutions must be properly indented and **explained with comments**
 
 ## :books: Documentation Contributions
 * You can add useful resources related to CP/DSA. 
@@ -38,8 +38,10 @@ Please read the following points carefully
 * **Any solution you add must be your own and not plagiarized in any manner.** 
 * **Folder & file names must NOT contain any invalid characters, leading digits or trailing whitespaces.**
 
-#### As long as your PR adheres with all the points mentioned above, you're good to go :sparkles:
-
+#### As long as your PR adheres with all the points mentioned above, you're good to go :sparkles:. 
 :pencil: For a guide on how to make a Pull request, refer [this](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/MAKING_A_PR.md)
 
 #### Happy contributing!! :smiley:
+
+## Any PR that doesn't adhere with the contributing guidelines will be marked as invalid and closed.
+
