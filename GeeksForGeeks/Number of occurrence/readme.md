@@ -1,0 +1,2 @@
+# Number of Occurrence of a number in a sorted array.
+## Problem Link : https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1/?category[]=Searching&category[]=Searching&difficulty[]=-1&page=1&query=category[]Searchingdifficulty[]-1page1category[]Searching
