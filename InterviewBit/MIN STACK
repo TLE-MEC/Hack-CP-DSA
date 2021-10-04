@@ -1,0 +1,45 @@
+stack<int> s;
+int mn;
+
+MinStack::MinStack() {
+    while(!s.empty()){
+        s.pop();
+    }
+}
+
+void MinStack::push(int x) {
+    if(s.empty()){
+            s.push(x);
+            mn = x;
+        }
+        else if(x <= mn){
+            s.push(2ll*x - mn);
+            mn = x;
+        }
+        else{
+            s.push(x);
+    }
+}
+
+void MinStack::pop() {
+     if(s.empty()) return;
+        if(s.top() < mn){
+            // mn = 2*mn - s.top()
+            mn = 2ll*mn - s.top();
+        }
+        s.pop();
+}
+
+int MinStack::top() {
+  if(s.empty()) return -1;
+        if(s.top() < mn){
+            return mn;
+        }
+        return s.top();
+}
+
+int MinStack::getMin() {
+      if(s.empty()) return -1;
+        return mn;
+}
+URL : https://www.interviewbit.com/problems/min-stack/
