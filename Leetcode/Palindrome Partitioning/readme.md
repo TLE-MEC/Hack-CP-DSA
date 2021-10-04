@@ -1,2 +1,2 @@
 Difficulty : Medium
-Problem Link : https://leetcode.com/problems/combination-sum-iii/
+Problem Link : https://leetcode.com/problems/palindrome-partitioning/
