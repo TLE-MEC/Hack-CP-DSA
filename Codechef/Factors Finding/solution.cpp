@@ -41,18 +41,18 @@ using namespace std;
 int main()
 {
     int N, Count = 0;
-    cin >> N;
-    int Fact[N];
+    cin >> N; // input no. of test cases
+    int Fact[N]; // crate array for factor records
     for (int i = 1; i <= N; i++)
     {
-        if (N % i == 0)
+        if (N % i == 0) // checking for factors
         {
-            Fact[Count] = i;
-            Count++;
+            Fact[Count] = i; //storing the value in array
+            Count++; //increamenting the count
         }
     }
-    cout << Count << endl;
-    for (int i = 0; i < Count; i++)
+    cout << Count << endl; //print the count
+    for (int i = 0; i < Count; i++) //loop for printing factors
         cout << Fact[i] << " ";
     return 0;
 }
