@@ -13,14 +13,14 @@ int main() {
         scanf("%lld",&n);
         for(i=0;i<n;i++)
             {
-            scanf("%s",m[i]);
+            scanf("%s",m[i]);              /* reading characters */
         }
         for(i=0;i<n;i++)
             {
             memset(cnt,0,sizeof(cnt));      /* sets all 26 values of cnt[] to 0 */
             for(j=0;j<n;j++)
                 {
-                cnt[m[i][j]-'a']++;;
+                cnt[m[i][j]-'a']++;
             }
             j=0;
             for(k=0;k<26;k++)
