@@ -18,40 +18,41 @@ void solve() {
     int n, k;
     cin >> n >> k;
     vector<int> x(n), y(n);
-    
-    for(int i = 0; i < n; i++){
-    	cin >> x[i];
+
+    for (int i = 0; i < n; i++) {
+        cin >> x[i];
     }
-    for(int i = 0; i < n; i++){
-    	cin >> y[i];
+    for (int i = 0; i < n; i++) {
+        cin >> y[i];
     }
-    
+
     sort(x.begin(), x.end());
     vector<int> mx(n, 0);
     int ans = 0;
-    for(int i = n - 1; i >= 0; i--){
-    	int val = x[i] + k;
-    	int pos = (upper_bound(x.begin(), x.end(), val) - x.begin());
-    	pos--;
-    
-    	int first_platform = pos - i + 1;
-    	int second_platform = 0;
-    	if(pos < n - 1){
-    		second_platform = mx[pos + 1];
-    	}
-    
-    	ans = max(ans,first_platform + second_platform);
-    	mx[i] = first_platform;
-    	if(i != n - 1)
-    		mx[i] = max(mx[i], mx[i + 1]);
+    for (int i = n - 1; i >= 0; i--) {
+        int val = x[i] + k;
+        int pos = (upper_bound(x.begin(), x.end(), val) - x.begin());
+        pos--;
+
+        int first_platform = pos - i + 1;
+        int second_platform = 0;
+        if (pos < n - 1) {
+            second_platform = mx[pos + 1];
+        }
+
+        ans = max(ans, first_platform + second_platform);
+        mx[i] = first_platform;
+        if (i != n - 1)
+            mx[i] = max(mx[i], mx[i + 1]);
     }
-    cout << ans << '\n' ;
+    cout << ans << '\n';
 }
 
 int32_t main() {
     int t = 1;
     cin >> t;
-    while(t--){
+    while (t--)
+    {
         solve();
     }
     return 0;
