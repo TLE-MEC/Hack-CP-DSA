@@ -1,0 +1,64 @@
+vector<int> NSL(vector<int>arr , int n){
+        vector<int> ans;
+        stack<pair<int, int>> st; //element , index
+        for(int i = 0 ; i < n ; i++){
+            int val = arr[i];
+            while(!st.empty() && st.top().first >= val) st.pop();
+            if(st.empty()) ans.push_back(-1);
+            else ans.push_back(st.top().second);
+            st.push({val , i});
+        }
+        return ans;
+    }
+    vector<int> NSR(vector<int>arr , int n){
+        vector<int> ans;
+        stack<pair<int, int>> st;;
+        for(int i = n-1 ; i >= 0 ; i--){
+            int val = arr[i];
+            while(!st.empty() && st.top().first >= val) st.pop();
+            if(st.empty()) ans.push_back(n);
+            else ans.push_back(st.top().second);
+            st.push({val , i});
+        }
+        reverse(ans.begin() , ans.end());
+        return ans;
+    }
+    int MAH(vector<int>arr, int n){
+        vector<int> sl = NSL(arr , n);
+        vector<int> sr = NSR(arr , n);
+        vector<int> ar;
+        int maxA = INT_MIN;
+        for(int i = 0 ; i < n ; i++){
+            ar.push_back(sr[i]-sl[i]-1);
+        }
+        for(int i = 0 ; i < n ; i++){
+            maxA = max(maxA , ar[i] * arr[i]);
+        }
+        return maxA;
+    }
+
+
+int Solution::maximalRectangle(vector<vector<int>> &A) {
+    vector<int>vec;
+    int n=A.size();
+    int m=A[0].size();
+    for(int i=0;i<m;i++){
+        vec.push_back(A[0][i]);
+    }
+    int mx=MAH(vec,vec.size());
+    for(int i=1;i<n;i++){
+       for(int j=0;j<m;j++){
+           if(A[i][j]==0){
+               vec[j]=0;
+           }else{
+               vec[j]+=A[i][j];
+           }
+       }
+       int ans=MAH(vec,vec.size());
+       mx=max(ans,mx);
+    }
+    return mx;
+}
+
+
+URL : https://www.interviewbit.com/problems/max-rectangle-in-binary-matrix/
