@@ -1,4 +1,4 @@
-# Hack CP-DSA <img align = "right" src ="https://img.shields.io/github/watchers/TLE-MEC/Hack-CP-DSA?style=social"> <img align = "right" src ="https://img.shields.io/github/stars/TLE-MEC/Hack-CP-DSA?style=social">    <img align = "right" src ="https://img.shields.io/github/forks/TLE-MEC/Hack-CP-DSA?style=social">
+# Hack CP <img align = "right" src ="https://img.shields.io/github/watchers/TLE-MEC/Hack-CP-DSA?style=social"> <img align = "right" src ="https://img.shields.io/github/stars/TLE-MEC/Hack-CP-DSA?style=social">    <img align = "right" src ="https://img.shields.io/github/forks/TLE-MEC/Hack-CP-DSA?style=social">
 
 <img src="https://img.shields.io/github/contributors/TLE-MEC/Hack-CP-DSA">               <img src="https://img.shields.io/github/languages/count/TLE-MEC/Hack-CP-DSA"> <img src="https://img.shields.io/github/issues/TLE-MEC/Hack-CP-DSA">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
@@ -9,7 +9,7 @@ _Wanna practice collaborating on github :question:_
        
 _Well, you've come to the right place!_ :smiley:    
 
-###  :sparkles: Welcome to Hack CP-DSA by TLE MEC :sparkles:    
+###  :sparkles: Welcome to Hack CP by TLE MEC :sparkles:    
 This is a beginner friendly repository for Competitive Programming & DSA problems and solutions💻       
 Our aim is to help you get practice on solving CP/DSA  problems from any platform of your choice and learn the basics of git & github 🎉   
 
