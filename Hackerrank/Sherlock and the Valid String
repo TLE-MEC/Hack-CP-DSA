@@ -1,0 +1,36 @@
+/* Sherlock considers a string to be valid if all characters of the string appear the same number of times. It is also valid if he can remove just  character at  index in the string, and the remaining characters will occur the same number of times. Given a string , determine if it is valid. If so, return YES, otherwise return NO. */
+
+/*
+Sample Input 0
+
+aabbcd
+Sample Output 0
+
+NO
+*/
+
+string isValid(string s) {
+    string ans="NO";
+    int b[26] = {};
+    int n = s.length();
+    
+    for (int i=0; i<n;i++)
+        b[s[i] - 'a']++;
+
+    for (int i=-1; i < 26;i++) {
+        if (i >= 0 and b[i] == 0)
+            continue;
+        if (i >= 0)
+             b[i]--;
+        set<int> x;
+        for (int j = 0; j < 26; j++) {
+            if (b[j])
+            x.insert(b[j]);
+        }
+        if (x.size() == 1)
+            ans = "YES";
+        if (i >= 0)
+            b[i]++;
+    }
+    return ans;
+}
