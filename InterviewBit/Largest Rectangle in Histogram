@@ -1,0 +1,42 @@
+vector<int> NSL(vector<int>arr , int n){
+        vector<int> ans;
+        stack<pair<int , int>> st; //element , index
+        for(int i = 0 ; i < n ; i++){
+            int val = arr[i];
+            while(!st.empty() && st.top().first >= val) st.pop();
+            if(st.empty()) ans.push_back(-1);
+            else ans.push_back(st.top().second);
+            st.push({val , i});
+        }
+        return ans;
+    }
+    vector<int> NSR(vector<int>arr , int n){
+        vector<int> ans;
+        stack<pair<int , int>> st;;
+        for(int i = n-1 ; i >= 0 ; i--){
+            int val = arr[i];
+            while(!st.empty() && st.top().first >= val) st.pop();
+            if(st.empty()) ans.push_back(n);
+            else ans.push_back(st.top().second);
+            st.push({val , i});
+        }
+        reverse(ans.begin() , ans.end());
+        return ans;
+    }
+    int Solution::largestRectangleArea(vector<int> &arr){
+        int n=arr.size();
+        vector<int> sl = NSL(arr , arr.size());
+        vector<int> sr = NSR(arr , arr.size());
+        vector<int> ar;
+        int maxA = INT_MIN;
+        for(int i = 0 ; i < n ; i++){
+            ar.push_back(sr[i]-sl[i]-1);
+        }
+        for(int i = 0 ; i < n ; i++){
+            maxA = max(maxA , ar[i] * arr[i]);
+        }
+        return maxA;
+    }
+
+
+URLL: https://www.interviewbit.com/problems/largest-rectangle-in-histogram/
