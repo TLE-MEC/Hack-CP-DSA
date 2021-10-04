@@ -20,4 +20,4 @@
     Explanation: 
     LCA of 3 and 4 is 2. 
     
-## Question link :- https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1/?track=DSASP-Tree&batchId=154
+## Question link :- https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1#
