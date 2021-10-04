@@ -1,10 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() {                        //time complexity = O(n).
 	int t;
 	cin>>t;
 	while(t--){
+	/* What we'll do here is that we will take each character from the string, and compare it to its previous index.
+	A character must not repeat after it already has consequitive times before.
+	
+	Therefore if a character is first encountered, it would be added to the set.
+	The if statement(LINE 24) won't be true unless it appears a second time.
+	
+	If the condition is met, the teacher will be suspicious otherwise not. */
 	    int n;
 	    string s;
 	    cin>>n>>s;
