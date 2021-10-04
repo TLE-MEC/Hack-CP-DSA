@@ -1,0 +1,29 @@
+int Solution::trap(const vector<int> &height) {
+    if(height.size()==0){
+            return 0;
+        }
+        int n=height.size();
+        vector<int>left;
+        vector<int>right;
+        int st=height[0];
+        int en=height[n-1];
+        for(int i=0;i<n;i++){
+            st=max(st,height[i]);
+            left.push_back(st);
+            
+        }
+        for(int i=n-1;i>=0;i--){
+             en=max(en,height[i]);
+            right.push_back(en);
+           
+        }
+        reverse(right.begin(),right.end());
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum+=min(left[i],right[i])-height[i];
+        }
+        return sum;
+}
+
+
+URL : https://www.interviewbit.com/problems/rain-water-trapped/
