@@ -1,0 +1,1 @@
+Problem link:- https://www.hackerrank.com/challenges/encryption/problem

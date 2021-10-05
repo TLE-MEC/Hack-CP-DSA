@@ -1,0 +1,2 @@
+Link to the problem: 
+[Check if the door is open or closed](https://practice.geeksforgeeks.org/problems/check-if-the-door-is-open-or-closed2013/1/?company[]=TCS&company[]=TCS&page=1&query=company[]TCSpage1company[]TCS#)

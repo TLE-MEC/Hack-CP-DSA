@@ -6,18 +6,61 @@ pull_request_rules:
       comment: 
         message: Awesome :thumbsup:, Thanks for contributing to Hack-CP-DSA by [TLE MEC](https://www.instagram.com/tle.mec/) :smiley:!
       label:
-        remove_all: true
+        remove:
+          - awaiting-changes
+        add:
+          - hacktoberfest-accepted
       merge:
         method: merge
-  - name: comment on label
+  - name: Close if comments are not present
     conditions:
-      - label=changes-needed
+      - label=add-comments
     actions:
-      comment:
-        message: Hey there, please add comments to your solution as mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines for your PR to be approved.
+      close:
+        message: Hey there, please add comments to your solution explaining the logic used. This is clearly mentioned in the [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) guidelines. You may submit another Pull Request with the necessary changes made, Thanks
+  - name: Close if file or folder names invalid
+    conditions:
+      - label=change-name
+    actions:
+      close:
+        message: Hey there, Your PR has been closed due to one or more of the following reasons:1) Your problem and/or solution file/folder are not named correctly. Please refer [Contributing](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) for guidelines. 2) Your file/folder name contains special characters or leading digits, please remove them. You may submit another Pull Request with the necessary changes made, Thanks
+  - name: Close if files are missing
+    conditions:
+      - label=missing-file
+    actions:
+      close: 
+        message: Hey there, it looks like some of the required files are missing. Please go through [Contributing.md](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) to see what all files need to be added and send another PR, Thanks.
   - name: Close invalid pull request
     conditions:
       - label=invalid
     actions:
       close: 
         message: Your PR has been closed due to not aligning with the contribution guidelines. Please go through [Contributing.md](https://github.com/TLE-MEC/Hack-CP-DSA/blob/main/CONTRIBUTING.md) and send another PR, Thanks.
+  - name: Close duplicate pull request
+    conditions:
+      - label=duplicate
+    actions:
+      close:
+        message: Your PR has been closed since it is a duplicate
+  - name: Close inactive pull request
+    conditions:
+      - label=inactive-close
+    actions:
+      close:
+  - name: label on conflicts
+    conditions:
+      - conflict
+    actions:
+      label:
+        add:
+          - conflict-no-approve
+      comment:
+        message: Hey there, looks like there are some conflicting files. Please resolve the conflicts so that your Pull Request can be reviewed.
+  - name: remove conflict label if not needed
+    conditions:
+      - -conflict
+    actions:
+      label:
+        remove:
+          - conflict-no-approve
+
