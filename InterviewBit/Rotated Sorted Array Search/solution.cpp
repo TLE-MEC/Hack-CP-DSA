@@ -1,34 +1,62 @@
-//Since before rotation, the array was sorted, this means that we can use binary search.
-//In a binary search algorithm, we have three indexes, low, mid and high.
-//The mid variable divides the array into two part, one is [low,mid] and another is [mid,high].
-
-int Solution::search(const vector<int> &A, int B) {
-    int l=0,r=A.size()-1;
+class Solution {
+public:
     
-    while(l<=r){
-        int mid = (l+r)/2; 
+    int dp[15][10001];
+    
+    int solve(vector<int>& arr,int m,int n)
+    {
+        if(n<0&&m==0)
+            return -1;
         
-        // Found Cut
-        if(A[mid]==B) return mid;
-        
-        if(A[l]<=A[mid]){ // That means A[l] to A[mid] is sorted.
-        
-            if(A[l]<=B && B<A[mid]){ // That means B lies between [A[l],A[mid])
-                r = mid-1;
-            }
-            else{   // That means B lies between (A[mid],A[r]]
-                l = mid+1;
-            }
-        }
-        else{ // A[mid] to A[r] is sorted.
+        if(n<0)
+          return 0;
             
-            if(A[mid]<B && B<=A[r]){ // That means B lies between (A[mid],A[r]]
-                l = mid+1;
-            }
-            else{ // That meanse B lies between [A[l],A[mid])
-                r = mid-1;
-            }
-        }
+        if(n==0)
+            return 1;
+        
+        if(m==0)
+            return 0;
+        
+//         if (m == 0 || n == 0)
+//         {
+           
+             
+//         }
+         
+        
+        if(dp[m][n]!=-1)
+           return dp[m][n];
+
+        if(n-arr[m-1]<0)
+            return dp[m][n]=solve(arr,m-1,n);
+        
+        else 
+           return dp[m][n]=min(1+solve(arr,m,n-arr[m-1]),solve(arr,m-1,n));
+        
     }
-    return -1;
-}
+    
+    int coinChange(vector<int>& coins, int amount) {
+      
+       
+        memset(dp,-1,sizeof(dp));
+        
+        
+         
+        
+       for(int i=0;i<=amount;i++)
+          dp[0][i]=0;
+        
+       
+        for(int i=0;i<15;i++)
+           dp[i][0]=0;
+        
+        
+        solve(coins,coins.size(),amount);
+        
+        if(dp[coins.size()][amount]==0)
+            return -1;
+        else
+         return dp[coins.size()][amount];
+        
+    }
+};
