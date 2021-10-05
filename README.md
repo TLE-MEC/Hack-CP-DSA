@@ -4,6 +4,9 @@
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
 <img src="https://img.shields.io/tokei/lines/github/TLE-MEC/Hack-CP-DSA">
 
+
+## Update regarding hacktoberfest: please refer this [announcement](https://github.com/TLE-MEC/Hack-CP/issues/625)
+
 _Wanna improve your problem solving skills :question:_      
 _Wanna practice collaborating on github :question:_        
        
@@ -20,7 +23,6 @@ You can contribute to this repo by sending pull requests.
 ### 🏆 Top contributor to this repo during October 2021 will win an exclusive Github t-shirt !!
 So what are you waiting for? Put your problem solving skills to good use and keep the pull requests coming! :sunglasses: :sunglasses:    
 
-## Note that any PR that doesn't adhere with the contributing guidelines will be marked as invalid & closed.
 ### PS: :star: Star this repo and follow us on [Instagram](https://www.instagram.com/tle.mec/) & [Linkedin](https://www.linkedin.com/company/tle-mec/).   
 
 
