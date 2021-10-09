@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-int fib(int n) {
-        if(n==0)
+int fib(int n) {            // Function to find nth fibonacci number
+        if(n==0)            //Base case for recursion
             return 0;
         if(n==1)
             return 1;
-        int fi=fib(n-1)+fib(n-2);
+        int fi=fib(n-1)+fib(n-2);           //using recursion
         return fi;
     }
 int main()
