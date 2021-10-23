@@ -1,0 +1,14 @@
+//https://leetcode.com/problems/check-if-it-is-a-good-array/
+
+class Solution {
+public:
+    bool isGoodArray(vector<int>& nums) {
+    int n=nums.size();
+    int gcd=0;
+    for(auto val:nums)
+    {
+        gcd=__gcd(val,gcd);
+    }
+    return gcd==1;
+    }
+};
